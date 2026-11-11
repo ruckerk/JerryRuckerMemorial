@@ -1,0 +1,21 @@
+JERRY RUCKER MEMORIAL WEBSITE — HOW TO EDIT
+
+1. Open index.html in any text editor (VS Code, Notepad++, TextEdit in plain-text mode).
+2. Search for "GATHERING ANNOUNCEMENT" to find the event placeholder.
+   Change only the text between <h2> ... </h2> and <p> ... </p>.
+   Example: <p>Join us at 4:30 p.m. at [venue name and address].</p>
+3. Search for "BURIAL SERVICE" to edit time, date or address. If you change
+   the location, also change the Google Maps links in that same section.
+4. Search for "OBITUARY TEXT" to edit the obituary. Each <p> ... </p> is a
+   paragraph. Keep the <p> and </p> tags around the paragraph.
+5. Save index.html. Open it in a browser to preview.
+6. ZIP together the files at the ROOT of a ZIP (not within another folder):
+      index.html
+      styles.css
+      jerry-rucker.jpg
+7. Cloudflare > Workers & Pages > obituary-9qz > Create deployment > Production;
+   upload that ZIP. Your domain's DNS should not need changing.
+
+Tip: Make a backup copy of index.html before each edit.
+The design is in styles.css; ordinarily, you should not need to edit it.
+If you change the photograph, use the same filename jerry-rucker.jpg.
