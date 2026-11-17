@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Jerry Rucker Memorial//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:jerry-rucker-memorial-20261124@jerryrucker.net
+DTSTAMP:20261117T180000Z
+DTSTART:20261124T220000Z
+DTEND:20261125T010000Z
+SUMMARY:Jerry Rucker Memorial
+DESCRIPTION:A memorial social to reconnect and remember Jerry Rucker over food and drinks.
+LOCATION:Chelsea Corner\, 4830 McKinney Ave\, Dallas\, TX 75205
+URL:https://jerryrucker.net/#gathering
+END:VEVENT
+END:VCALENDAR
